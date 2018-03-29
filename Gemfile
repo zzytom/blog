@@ -1,24 +1,5 @@
-source "https://rubygems.org"
-
-ruby '2.4.3'
-
-gem 'materialize-sass'
-gem "jekyll", "~> 3.6.2"
-gem "minima", "~> 2.0"
-gem 'rspec'
-gem 'capybara'
-gem "selenium-webdriver"
-gem "chromedriver-helper"
-gem "rack-jekyll"
-gem "pry"
-
-
 group :jekyll_plugins do
-  gem "jekyll-feed", "~> 0.6"
-  gem "jekyll-assets"
-  gem "jekyll-minifier"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jemoji"
 end
-
-gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
-
-gemspec
