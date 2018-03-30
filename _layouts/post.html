@@ -6,7 +6,7 @@ layout: main
     {% if page.img %}
     <div class="page-cover-image">
       <img class="page-image" src={{ "/assets/img/" | prepend: site.baseurl | append : page.img}} alt="{{page.title}}">
-    </div> <!-- End Page Cover Image -->
+    </div> <!-- 端页封面图像 -->
     {% else %}
     {% endif %}
     <div class="wrap-content">
@@ -28,6 +28,6 @@ layout: main
         </div>
       </div>
       {% include disqus.html %}
-    </div> <!-- End Wrap Content -->
-  </div> <!-- End Page Content -->
-</article> <!-- End Article Page -->
+    </div> <!-- End Wrap Content端包内容 -->
+  </div> <!-- End Page Content 页末内容-->
+</article> <!-- End Article Page 文章页末-->
