@@ -3,9 +3,11 @@ layout: post
 title: hadoop单机版搭建
 date: 2018-04-04 17:32:20 +0300
 description: 
-img: hadoop-st.png # Add image post (optional)添加图像帖子(可选)
+img:  # Add image post (optional)添加图像帖子(可选)
 tags: [hadoop]
 ---
+![I and My friends]({{site.baseurl}}/assets/img/hadoop-st.png)  
+
 &#160; &#160; &#160; &#160;安装版本为2.7.5,系统为centos 7  
 解压到/usr/hadoop/hadoop-2.7.5目录下  
 在/usr/hadoop下创建tmp和hdfs文件夹  
